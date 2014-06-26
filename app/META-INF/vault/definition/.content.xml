@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2014-04-09T12:48:13.510+02:00"
+    jcr:createdBy="admin"
+    jcr:description=""
+    jcr:lastModified="{Date}2014-04-09T12:48:13.510+02:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="2"
+    builtWith="Adobe Granite-0.0.0.0_0_0_2013_21a"
+    dependencies="[]"
+    group="sightly"
+    lastUnwrapped="{Date}2014-04-09T12:48:13.510+02:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2014-04-09T12:48:13.510+02:00"
+    lastWrappedBy="admin"
+    name="todomvcapp"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    version="">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/todomvc"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/todomvc"
+            rules="[]"/>
+    </filter>
+</jcr:root>
